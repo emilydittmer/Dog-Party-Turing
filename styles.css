@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+header {
+  background: #75e2e6;
+  font-family: "Open Sans" sans-serif;
+  margin: 0;
+}
+
+.dogicon {
+  height: 70px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+ul{
+  display: inline;
+  list-style-type: none;
+}
+li {
+  float: right;
+  font-weight: bold;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+li a {
+  text-decoration: none;
+  color: #000000;
+}
+hr {
+  border: 2px solid #048eaa;
+  margin: 0;
+}
+.background {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(images/park.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dogname {
+  color: #ffffff;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  height: 500px;
+  margin: auto;
+  padding: 5px;
+  width: 275px;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+span {
+  font-weight: 700;
+}
+
+.dogpic {
+  border-radius: 50%;
+  border: #048eaa solid 5px;
+  height: 250px;
+}
+
+.button1 {
+  background-color: #75e2e6;
+  font-family: "Open Sans" sans-serif;
+  font-size: 18px;
+  height: 40px;
+  margin-top: 15px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+input{
+  border: 0;
+  height: 40px;
+  padding: 0;
+  width: 100%;
+}
+
+img.sm {
+  margin-left: 20px;
+  margin: auto;
+  padding-left: 10px;
+}
+main {
+  overflow: auto;
+}
+
+.dog {
+  float: left;
+  margin: 15px;
+  width: 31%;
+}
+.dog h2 {
+  text-align: center;
+}
+.dog img {
+  display: block;
+  margin: auto;
+}
+
+.button2 {
+  background-color: #048eaa;
+  color: #ffffff;
+  display: block;
+  font-family: "Open Sans" sans-serif;
+  font-size: 18px;
+  height: 40px;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+}
+
+footer{
+  background-color: #048eaa;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer h3 {
+  font-weight: 400;
+  font-size: 20px;
+  margin: auto;
+}
+
